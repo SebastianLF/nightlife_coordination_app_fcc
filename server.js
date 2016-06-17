@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
 
 app.get('/api/search', (req, res) => {
   var query = url.parse(req.url,true).query;
-  client.search({term: 'bar', location: query.location || 'Paris'})
+  client.search({term: 'bar', location: query.location || 'Paris', sort: 2})
   .then(function (data) {
     res.json(data);
   })
