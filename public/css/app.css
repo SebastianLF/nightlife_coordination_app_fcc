@@ -1,0 +1,56 @@
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.masthead{
+      background: #3a5395;
+    /*background-size: 1920px, contain;*/
+    /*background-position: 20% 80%;*/
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 69px;
+    margin: 0 0 24px;
+    overflow-y: hidden;
+}
+
+
+.masthead .menu{
+  padding: 10px;
+  border: 0 !important;
+}
+
+.masthead .text{
+  padding: 80px 0 150px 0;
+}
+
+.masthead h1{
+      font-size: 58px;
+      line-height: 90px;
+}
+
+.masthead input{
+      font-size: 17px;
+          padding: 20px 20px 20px 60px !important;
+          border-radius: 8px !important;
+          box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* items animation*/
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
