@@ -4,6 +4,8 @@ var app = express();
 var request = require('request');
 var yelp = require('node-yelp');
 var url = require('url')
+var passport = require('passport');
+var session = require('express-session');
 
 require('dotenv').config();
 
@@ -44,6 +46,7 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(process.env.PORT || 3000, function () {
+  const port = process.env.PORT || 3000;
+  console.log('Example app listening on port '+port);
 });
