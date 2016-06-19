@@ -4,20 +4,19 @@ body{
 }
 
 .masthead{
-      background: #3a5395;
-    /*background-size: 1920px, contain;*/
-    /*background-position: 20% 80%;*/
-    color: rgba(255, 255, 255, 0.9);
+    background: #2986BE;
+    background-image: url('../img/food.png'), linear-gradient(-150deg, #00b5ad 0%, #db2828 97%);
+        background-size: 380px, contain;
+    color: white;
     text-align: center;
     line-height: 69px;
     margin: 0 0 24px;
-    overflow-y: hidden;
 }
-
 
 .masthead .menu{
   padding: 10px;
   border: 0 !important;
+  color: white !important;
 }
 
 .masthead .text{
@@ -25,6 +24,7 @@ body{
 }
 
 .masthead h1{
+      font-weight: 900;
       font-size: 58px;
       line-height: 90px;
 }
@@ -34,6 +34,15 @@ body{
           padding: 20px 20px 20px 60px !important;
           border-radius: 8px !important;
           box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+.masthead img{
+  background-color: aliceblue !important;
+  padding: 10px !important;
+  box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+
 }
 
 /* items animation*/

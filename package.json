@@ -30,6 +30,7 @@
     "node-yelp": "0.0.3",
     "oauth-1.0a": "^1.0.1",
     "path": "^0.12.7",
+    "places.js": "^1.0.1",
     "react": "15.0.2",
     "react-addons-css-transition-group": "^15.1.0",
     "react-dom": "15.0.2",
